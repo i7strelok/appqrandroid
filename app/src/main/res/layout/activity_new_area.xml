@@ -1,0 +1,30 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/LinearLayoutStyle">
+
+    <include layout="@layout/action_bar_app"/>
+
+    <TextView
+        android:id="@+id/titleNewArea"
+        android:text="@string/new_area_title"
+        style="@style/TitleStyle"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/nameNewArea"
+        android:hint="@string/new_area_name"
+        android:inputType="text"
+        style="@style/EditTextStyle"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/descriptionNewUser"
+        android:hint="@string/new_area_description"
+        android:inputType="text"
+        style="@style/EditTextStyle"/>
+
+    <Button
+        android:id="@+id/addNewArea"
+        android:text="@string/new_area_btn"
+        style="@style/ButtonStyle"/>
+
+</LinearLayout>

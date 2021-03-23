@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutStyle">
+
+    <include layout="@layout/action_bar_app" />
+    <!--<ImageButton
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:background="@color/white"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitStart"
+        android:padding="20dp"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"
+        app:layout_rowWeight="1"
+        app:srcCompat="@drawable/logo_hercom"
+        tools:ignore="VectorDrawableCompat" />
+        -->
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/email"
+        android:hint="@string/main_email_hint"
+        android:drawableLeft="@drawable/ic_account"
+        style="@style/EditTextStyle"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/password"
+        android:hint="@string/main_password_hint"
+        android:inputType="textPassword"
+        style="@style/EditTextStyle"
+        android:drawableLeft="@drawable/ic_password" />
+
+    <CheckBox
+        android:id="@+id/recuerdame"
+        android:text="@string/main_recuerdame"
+        style="@style/CheckBoxStyle"/>
+
+    <Button
+        android:id="@+id/login"
+        android:text="@string/main_login"
+        style="@style/ButtonStyle"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="@string/main_o"
+        style="@style/TextViewStyle"/>
+    <Button
+        android:id="@+id/forgotpassword"
+        android:text="@string/main_forgot_password"
+        style="@style/ButtonStyle"/>
+
+</LinearLayout>

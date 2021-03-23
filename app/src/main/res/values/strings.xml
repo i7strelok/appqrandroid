@@ -1,0 +1,82 @@
+<resources>
+    <!-- General Strings-->
+    <string name="app_name">AppQR Hercom</string>
+    <string name="menu_logout">Cerrar sesión</string>
+    <string name="menu_account">Mi cuenta</string>
+    <string name="email">email</string>
+    <string name="pass">pass</string>
+
+    <!-- Strings de main-->
+    <string name="main_title">Login</string>
+    <string name="main_email_hint">Ingrese su e-mail</string>
+    <string name="main_password_hint">Ingrese su contraseña</string>
+    <string name="main_login">Acceder</string>
+    <string name="main_forgot_password">Olvidé mi contraseña</string>
+    <string name="main_recuerdame">Recuérdame</string>
+    <string name="main_o">O</string>
+
+    <!-- Strings de main-->
+    <string name="menu_qr_scan">Escanear QR</string>
+    <string name="menu_search">Buscar</string>
+    <string name="menu_equipments">Equipos</string>
+    <string name="menu_areas">Áreas</string>
+    <string name="menu_users">Usuarios</string>
+
+    <!-- Strings de forgot password-->
+    <string name="forgot_title">Resetear la contraseña</string>
+    <string name="forgot_send">Resetear contraseña</string>
+    <string name="forgot_ok">Se le envió un e-mail con la nueva contraseña</string>
+    <string name="forgot_error">Error al resetear la contraseña</string>
+    <string name="forgot_description">
+        Para resetear tu contraseña deberás ingresar tu e-mail vinculado a tu cuenta. Recibirás un correo con la nueva contraseña.
+    </string>
+
+    <!-- Strings de users-->
+    <string name="new_user_title">Nuevo usuario</string>
+    <string name="new_user_fullname">Nombre completo*</string>
+    <string name="new_user_company">Empresa*</string>
+    <string name="new_user_password">Contraseña*</string>
+    <string name="new_user_email">E-mail*</string>
+    <string name="new_user_repassword">Repetir contraseña*</string>
+    <string name="new_user_usertype">Seleccione tipo de usuario*</string>
+    <string name="new_user_btn">Guardar</string>
+
+    <!-- Strings de areas-->
+    <string name="new_area_title">Nueva área</string>
+    <string name="new_area_name">Nombre del área*</string>
+    <string name="new_area_description">Descripción</string>
+    <string name="new_area_selplant">Seleccione una planta*</string>
+    <string name="new_area_btn">Guardar</string>
+
+    <!-- Strings de equipments-->
+    <string name="new_equipment_title">Nuevo equipo</string>
+    <string name="new_equipment_help1">Creando un nuevo equipo</string>
+    <string name="new_equipment_help2">Este proceso consta de varios pasos, así que, asegúrese de darle a guardar.</string>
+    <string name="new_equipment_ok">Equipo guardado con éxito</string>
+    <string name="new_equipment_error">Error al guardar el equipo</string>
+    <string name="new_equipment_btnnext">Siguiente</string>
+    <!--General data-->
+    <string name="new_equipment_name">Nombre del equipo*</string>
+    <string name="new_equipment_tag">Tag*</string>
+    <string name="new_equipment_type">Tipo*</string>
+    <string name="new_equipment_brand">Marca*</string>
+    <string name="new_equipment_model">Modelo*</string>
+    <string name="new_equipment_date">Fecha de instalación*</string>
+    <string name="new_equipment_description">Fecha de instalación*</string>
+    <!-- Electríca y Mecánica-->
+    <string name="new_equipment_sala">Sala*</string>
+    <string name="new_equipment_tablero">Tablero*</string>
+    <string name="new_equipment_tension">Tensión del servicio*</string>
+    <string name="new_equipment_potencia">Potencia nominal*</string>
+    <string name="new_equipment_conductor">Conductor*</string>
+    <string name="new_equipment_tipo_conductor">Tipo de conductor*</string>
+    <string name="new_equipment_conduccion">Conducción*</string>
+    <string name="new_equipment_ficha_tecnica">Ficha Técnica*</string>
+    <string name="new_equipment_plano_unifilar">Plano Unifilar*</string>
+    <string name="new_equipment_plano_distribuccion">Plano de Distribucción*</string>
+    <string name="new_equipment_plano_funcional">Plano Funcional*</string>
+    <!-- Configuration and Calibration-->
+    <string name="new_equipment_file">Adjuntar documento*</string>
+
+
+</resources>

@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/LinearLayoutStyle">
+
+    <include layout="@layout/action_bar_app"/>
+
+    <TextView
+        android:id="@+id/titleNewUser"
+        android:text="@string/new_user_title"
+        style="@style/TitleStyle"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/fullnameNewUser"
+        android:hint="@string/new_user_fullname"
+        android:inputType="text"
+        style="@style/EditTextStyle"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/companyNewUser"
+        android:hint="@string/new_user_company"
+        android:inputType="text"
+        style="@style/EditTextStyle"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/emailNewUser"
+        android:hint="@string/new_user_email"
+        android:inputType="textEmailAddress"
+        style="@style/EditTextStyle"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/passwordNewUser"
+        android:hint="@string/new_user_password"
+        android:inputType="textPassword"
+        style="@style/EditTextStyle"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/repasswordNewUser"
+        android:hint="@string/new_user_repassword"
+        android:inputType="textPassword"
+        style="@style/EditTextStyle"/>
+
+    <Button
+        android:id="@+id/addNewUser"
+        android:text="@string/new_user_btn"
+        style="@style/ButtonStyle"/>
+
+</LinearLayout>
